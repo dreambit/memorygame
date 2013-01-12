@@ -7,8 +7,7 @@ public:
     void Render();
 
 private:
-    CIwFVec2 m_Position;
-    CIwSVec2 m_Size;
+    CIwSVec2 *size;
 };
 
 
@@ -26,13 +25,24 @@ protected:
 }
 
 
-class Sprite : DrawableGameElement, UpdatableGameElement
+class Sprite : public DrawableGameElement, UpdatableGameElement
 {
 public:
-	Sprite(char *src)
-	{
-		image = Iw2DCreateImage(src);
-	}
+	Sprite(char *src);
+protected:
+	void onDraw();
+	void onUpdate();
 private:
 	CIw2DImage *image;
+	CIwSVec2 *position;
+	CIwSVec2 *size;
+}
+
+
+class AnimatedSprite : DrawableGameElement, UpdatableGameElement
+{
+public:
+	AnimatedSprite();
+protected:
+	CIwArray<Sprite> *sprites;
 }
