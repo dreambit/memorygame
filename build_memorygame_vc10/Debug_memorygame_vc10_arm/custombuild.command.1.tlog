@@ -1,0 +1,2 @@
+^C:\USERS\DREAMBIT\DOCUMENTS\MEMORYGAME\MEMORYGAME.MKB
+"D:\Marmalade\6.1\s3e\python\python.exe" "D:\Marmalade\6.1\s3e\makefile_builder\mkb.py" "c:/Users/dreambit/Documents/memorygame/memorygame.mkb" "--default-buildenv=vc10" --msvc-project
