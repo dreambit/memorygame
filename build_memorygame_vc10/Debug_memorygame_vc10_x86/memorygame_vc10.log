@@ -1,0 +1,19 @@
+﻿Построение начато 1/13/2013 6:44:45 PM.
+     1>Проект "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Debug_memorygame_vc10_x86\memorygame_vc10.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         Для всех выходных данных обновления не требуется.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:/Users/dreambit/Documents/memorygame/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/h /Id:/marmalade/6.1/modules/iwutil/h /Id:/marmalade/6.1/modules/iwgeom/h /Id:/marmalade/6.1/modules/iwresmanager/h /Id:/marmalade/6.1/modules/iwgl/h /Id:/marmalade/6.1/modules/iwgx/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/h /Id:/marmalade/6.1/modules/iwgxfont/h /Id:/marmalade/6.1/modules/iw2d/h /Id:/marmalade/6.1/s3e/h /Id:/marmalade/6.1/s3e/h/ext /Id:/marmalade/6.1/s3e/h/std /Id:/marmalade/6.1/s3e/h/std/c++ /Id:/marmalade/6.1/s3e/h/ext_legacy /Id:/marmalade/6.1/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /Od /Oy- /X /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_memorygame_vc10_x86\\" /Fd"Debug_memorygame_vc10_x86\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/dreambit/Documents/memorygame/src/game.cpp c:/Users/dreambit/Documents/memorygame/src/main.cpp /S3Eproject /J /FI"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\temp_defines_debug.h"
+     1>cl : командная строка warning D9002: пропуск неизвестного параметра "/S3Eproject"
+         main.cpp
+     1>c:\users\dreambit\documents\memorygame\build_memorygame_vc10\temp_defines_debug.h(127): fatal error C1189: #error :  "Wrong compiler used.  Please run s3eConfig to configure Visual Studio"
+         game.cpp
+     1>c:\users\dreambit\documents\memorygame\build_memorygame_vc10\temp_defines_debug.h(127): fatal error C1189: #error :  "Wrong compiler used.  Please run s3eConfig to configure Visual Studio"
+         Создание кода...
+     1>Построение проекта "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" завершено (целевые объекты build) с ошибкой.
+
+СБОЙ построения.
+
+Затраченное время: 00:00:02.12
