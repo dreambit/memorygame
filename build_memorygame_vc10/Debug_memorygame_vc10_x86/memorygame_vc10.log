@@ -1,19 +1,32 @@
-﻿Построение начато 1/13/2013 6:44:45 PM.
+﻿Построение начато 1/13/2013 11:10:41 PM.
      1>Проект "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" в узле 2 (целевые объекты build).
      1>InitializeBuildStatus:
          Создание "Debug_memorygame_vc10_x86\memorygame_vc10.unsuccessfulbuild", так как было задано "AlwaysCreate".
        CustomBuild:
          Для всех выходных данных обновления не требуется.
        ClCompile:
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Ic:/Users/dreambit/Documents/memorygame/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/h /Id:/marmalade/6.1/modules/iwutil/h /Id:/marmalade/6.1/modules/iwgeom/h /Id:/marmalade/6.1/modules/iwresmanager/h /Id:/marmalade/6.1/modules/iwgl/h /Id:/marmalade/6.1/modules/iwgx/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/h /Id:/marmalade/6.1/modules/iwgxfont/h /Id:/marmalade/6.1/modules/iw2d/h /Id:/marmalade/6.1/s3e/h /Id:/marmalade/6.1/s3e/h/ext /Id:/marmalade/6.1/s3e/h/std /Id:/marmalade/6.1/s3e/h/std/c++ /Id:/marmalade/6.1/s3e/h/ext_legacy /Id:/marmalade/6.1/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /Od /Oy- /X /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_memorygame_vc10_x86\\" /Fd"Debug_memorygame_vc10_x86\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/dreambit/Documents/memorygame/src/game.cpp c:/Users/dreambit/Documents/memorygame/src/main.cpp /S3Eproject /J /FI"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\temp_defines_debug.h"
-     1>cl : командная строка warning D9002: пропуск неизвестного параметра "/S3Eproject"
-         main.cpp
-     1>c:\users\dreambit\documents\memorygame\build_memorygame_vc10\temp_defines_debug.h(127): fatal error C1189: #error :  "Wrong compiler used.  Please run s3eConfig to configure Visual Studio"
+         D:\Marmalade\6.1\s3e\bin\CL.exe /c /Ic:/Users/dreambit/Documents/memorygame/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/h /Id:/marmalade/6.1/modules/iwutil/h /Id:/marmalade/6.1/modules/iwgeom/h /Id:/marmalade/6.1/modules/iwresmanager/h /Id:/marmalade/6.1/modules/iwgl/h /Id:/marmalade/6.1/modules/iwgx/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/h /Id:/marmalade/6.1/modules/iwgxfont/h /Id:/marmalade/6.1/modules/iw2d/h /Id:/marmalade/6.1/s3e/h /Id:/marmalade/6.1/s3e/h/ext /Id:/marmalade/6.1/s3e/h/std /Id:/marmalade/6.1/s3e/h/std/c++ /Id:/marmalade/6.1/s3e/h/ext_legacy /Id:/marmalade/6.1/s3e/h/legacy /I. /ZI /nologo /W3 /WX- /Od /Oy- /X /Gm /EHsc /RTC1 /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug_memorygame_vc10_x86\\" /Fd"Debug_memorygame_vc10_x86\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/dreambit/Documents/memorygame/src/game.cpp /S3Eproject /J /FI"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\temp_defines_debug.h"
          game.cpp
-     1>c:\users\dreambit\documents\memorygame\build_memorygame_vc10\temp_defines_debug.h(127): fatal error C1189: #error :  "Wrong compiler used.  Please run s3eConfig to configure Visual Studio"
-         Создание кода...
-     1>Построение проекта "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" завершено (целевые объекты build) с ошибкой.
+       Link:
+         D:\Marmalade\6.1\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Debug_memorygame_vc10_x86\memorygame.s86" /INCREMENTAL /NOLOGO /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/lib/x86 /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/lib/x86 /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iwutil/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iwgeom/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iwresmanager/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iwgx/atitools /LIBPATH:d:/marmalade/6.1/modules/iwgx/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iwgl/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iwgxfont/lib/x86 /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/lib/x86 /LIBPATH:d:/marmalade/6.1/modules/iw2d/lib/x86 /LIBPATH:d:/marmalade/6.1/s3e/lib/x86 vc6_compat.lib jpeg_d.lib z_d.lib png_d.lib iwutil_d.lib iwgeom_d.lib iwresmanager_d.lib ATI_Compress_MT_VC7.lib iwgx_d.lib iwgl_d.lib iwgxfont_d.lib tiniconv_d.lib iw2d_d.lib s3e_cpp_vc8_d.lib s3e_d.lib s3e_api.lib /NODEFAULTLIB:libcmt /MANIFEST:NO /DEBUG /PDB:"C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.pdb" /SUBSYSTEM:WINDOWS /OPT:NOREF /OPT:NOICF /TLBID:1 /ENTRY:"DllEntryPoint" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Debug_memorygame_vc10_x86\memorygame.lib" /MACHINE:X86 /DLL Debug_memorygame_vc10_x86\game.obj
+         Debug_memorygame_vc10_x86\main.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12
+         memorygame_vc10.vcxproj -> C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86
+       PostBuildEvent:
+         echo D:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86"
+         chdir /d "d:\marmalade\6.1\s3e\tools"
+         D:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86"
+         echo "d:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86"
+         chdir /d "d:\marmalade\6.1\s3e"
+         "d:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86"
+         
+         :VCEnd
+         D:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86"
+         "d:\marmalade\6.1\s3e\bin\s3e_plink" -l "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_vc10_x86\memorygame.s86"
+       FinalizeBuildStatus:
+         Файл "Debug_memorygame_vc10_x86\memorygame_vc10.unsuccessfulbuild" удаляется.
+         Обращение к "Debug_memorygame_vc10_x86\memorygame_vc10.lastbuildstate".
+     1>Построение проекта "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" завершено (целевые объекты build).
 
-СБОЙ построения.
+Построение успешно завершено.
 
-Затраченное время: 00:00:02.12
+Затраченное время: 00:00:00.68

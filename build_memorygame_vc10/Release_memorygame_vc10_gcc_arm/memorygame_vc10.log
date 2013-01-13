@@ -1,0 +1,42 @@
+﻿Построение начато 1/13/2013 11:11:01 PM.
+     1>Проект "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" в узле 2 (целевые объекты build).
+     1>InitializeBuildStatus:
+         Создание "Release_memorygame_vc10_gcc_arm\memorygame_vc10.unsuccessfulbuild", так как было задано "AlwaysCreate".
+       CustomBuild:
+         Для всех выходных данных обновления не требуется.
+       ClCompile:
+         D:\Marmalade\6.1\s3e\bin\CL.exe /c /Ic:/Users/dreambit/Documents/memorygame/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/h /Id:/marmalade/6.1/modules/iwutil/h /Id:/marmalade/6.1/modules/iwgeom/h /Id:/marmalade/6.1/modules/iwresmanager/h /Id:/marmalade/6.1/modules/iwgl/h /Id:/marmalade/6.1/modules/iwgx/h /Ic:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/h /Id:/marmalade/6.1/modules/iwgxfont/h /Id:/marmalade/6.1/modules/iw2d/h /Id:/marmalade/6.1/s3e/h /Id:/marmalade/6.1/s3e/h/ext /Id:/marmalade/6.1/s3e/h/std /Id:/marmalade/6.1/s3e/h/std/c++ /Id:/marmalade/6.1/s3e/h/ext_legacy /Id:/marmalade/6.1/s3e/h/legacy /I. /Z7 /nologo /W3 /WX- /O2 /Oi /Oy- /X /Gm /EHsc /MTd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release_memorygame_vc10_gcc_arm\\" /Fd"Release_memorygame_vc10_gcc_arm\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt c:/Users/dreambit/Documents/memorygame/src/game.cpp c:/Users/dreambit/Documents/memorygame/src/main.cpp /S3Eproject /J /Fe"s3e-custom-tool='d:/marmalade/6.1/s3e/gcc/bin/arm-none-eabi-gcc.exe' tooltype=gcc_compiler -funsigned-char -fno-strict-aliasing -fno-stack-protector -fno-short-enums -fshort-wchar -Wall -fomit-frame-pointer -fmessage-length=0 -Wno-unused -Wno-parentheses -save-temps -ffunction-sections -mstructure-size-boundary=8 -mfloat-abi=soft -mthumb-interwork -march=armv4t -mword-relocations -Wno-switch -Wno-psabi -fvisibility=hidden -nostdinc --cppflag=-Wno-reorder --cppflag=-fvisibility-inlines-hidden --cppflag=-fno-exceptions --cppflag=-nostdinc++ -fomit-frame-pointer -O3" /FD  /FI"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\temp_defines_release.h"
+         ARM Compiling(GCC) c:\Users\dreambit\Documents\memorygame\src\game.cpp ...
+         c:/Users/dreambit/Documents/memorygame/src/game.cpp( In constructor 'SecretBox) ::SecretBox()':
+         
+         
+     1>c:/Users/dreambit/Documents/memorygame/src/game.cpp(49): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         c:/Users/dreambit/Documents/memorygame/src/game.cpp( In constructor 'Game) ::Game()':
+         
+         
+     1>c:/Users/dreambit/Documents/memorygame/src/game.cpp(121): warning : deprecated conversion from string constant to 'char*'
+         
+         
+         ARM Compiling(GCC) c:\Users\dreambit\Documents\memorygame\src\main.cpp ...
+       Link:
+         D:\Marmalade\6.1\s3e\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Release_memorygame_vc10_gcc_arm\memorygame.s3e" /INCREMENTAL:NO /NOLOGO /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libjpeg_6b/lib/arm /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/zlib_1.2.4/lib/arm /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/libpng_1.2.34/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iwutil/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iwgeom/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iwresmanager/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iwgx/atitools /LIBPATH:d:/marmalade/6.1/modules/iwgx/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iwgl/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iwgxfont/lib/arm /LIBPATH:c:/users/dreambit/appdata/roaming/marmalade/packages/6.1.1/tiniconv_1.0.1/lib/arm /LIBPATH:d:/marmalade/6.1/modules/iw2d/lib/arm /LIBPATH:d:/marmalade/6.1/s3e/lib/arm /NODEFAULTLIB:libcmt /MANIFEST:NO /PDB:"C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_vc10_gcc_arm\memorygame.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"Release_memorygame_vc10_gcc_arm\memorygame.lib" /MACHINE:X86 /DLL Release_memorygame_vc10_gcc_arm\game.obj
+         Release_memorygame_vc10_gcc_arm\main.obj  /include:_IwMain /include:_raise /include:_DllEntryPoint@12/COMMENT:"s3e-custom-tool='d:/marmalade/6.1/s3e/gcc/bin/arm-none-eabi-g++.exe' tooltype=gcc_linker -Wl,--gc-sections -Wl,--as-needed -mthumb-interwork -pie -Wl,--entry=_IwMain -Wl,--no-enum-size-warning -Wl,-Tlinker_script -lc -lm -Wl,-Map='Release_memorygame_vc10_gcc_arm\/memorygame.map' -Wl,--start-group -Wl,--whole-archive -liwutil -liwgeom -liwresmanager -liwgx -liwgxfont -liw2d -Wl,--no-whole-archive -ljpeg -lz -lpng -liwgl -ltiniconv -ls3e_cpp -ls3e -ls3e_api -ls3e_api -Wl,--end-group --plink:--arch=armv4T"
+         ARM Linking(GCC) ...
+         memorygame_vc10.vcxproj -> C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_vc10_gcc_arm\memorygame.s3e
+       PostBuildEvent:
+         echo D:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_vc10_gcc_arm\memorygame.s3e"
+         chdir /d "d:\marmalade\6.1\s3e\tools"
+         D:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_vc10_gcc_arm\memorygame.s3e"
+         
+         :VCEnd
+         D:\Marmalade\6.1\s3e\python\python.exe .\process_map.py "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_vc10_gcc_arm\memorygame.s3e"
+       FinalizeBuildStatus:
+         Файл "Release_memorygame_vc10_gcc_arm\memorygame_vc10.unsuccessfulbuild" удаляется.
+         Обращение к "Release_memorygame_vc10_gcc_arm\memorygame_vc10.lastbuildstate".
+     1>Построение проекта "C:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10.vcxproj" завершено (целевые объекты build).
+
+Построение успешно завершено.
+
+Затраченное время: 00:00:03.19

@@ -1,0 +1,45 @@
+Archive-Manifest-Version: 1.1
+Archive-Created-By: BlackBerry Tablet OS BAR Packager 1.0.2
+
+Package-Type: application
+Package-Author: dreambitc
+Package-Author-Id: gYAAgA8XHY6RUvCxDXH1BI2BprM
+Package-Name: com.mycompany.memorygame
+Package-Id: cGFueS5tZW1vcnlnYW1lICAgICA
+Package-Version: 0.0.1.0
+Package-Version-Id: MC4wLjEuMCAgICAgICAgICAgICA
+Package-Architecture: armle-v7
+
+Application-Name: memorygame
+Application-Id: Y29tLm15Y29tcGFueS5tZW1vcnk
+Application-Description: memorygame
+Application-Version: 0.0.1.0
+Application-Version-Id: MC4wLjEuMCAgICAgICAgICAgICA
+Application-Category: core.games
+Application-Requires-System: Tablet OS/1.0.0.0
+Application-Development-Mode: true
+
+Entry-Point-Name: memorygame
+Entry-Point: app/native/memorygame
+Entry-Point-Type: Qnx/Elf
+Entry-Point-Icon: native/icon.png
+Entry-Point-System-Actions: run_native
+Entry-Point-Orientation: auto
+
+Archive-Asset-Name: native/background.jpg
+Archive-Asset-SHA-512-Digest: hO+jhQjkwaR7Lhx8CZx4Th1rXnwVOCFu2QbM5UeEddex+6AsFnJzsPj1hmPwO9m6PI7OGRtFO1j06hZ+jFvslg
+
+Archive-Asset-Name: native/blackberry-tablet.xml
+Archive-Asset-SHA-512-Digest: a5TtN6f6DnTIQuwgR3q7WDGF1EwftRJUE57rtMmw7eMnRP7DUoQN2V2RZUNvIWcwxJUacP4XFS49ey+3MhtTaA
+
+Archive-Asset-Name: native/icon.png
+Archive-Asset-SHA-512-Digest: PVrOo8DrmiSnsGsqTLKAiSaABjT7PCIJmaWg17m1kArlvafvg0ye76EUJUnClnOpdewjmZYGjOYmBVE6GuXM9w
+
+Archive-Asset-Name: native/memorygame
+Archive-Asset-SHA-512-Digest: uSgwkqdmEmt5RmKRBixy/Yay13gz9VRPFlfgeBsoG7VjuFVlnFFzihDPAruMYVt3/nX199fSmMEE/zQGaARz3g
+
+Archive-Asset-Name: native/memorygame.s3e
+Archive-Asset-SHA-512-Digest: i2/vgwV60K2cFo2EcQhuwL5Y8wycQxJxCHV2lzZeF4llyGUElhRkAmyzrb+iwOGmp4e/7zlQR+0SVk1t7LzfSw
+
+Archive-Asset-Name: native/q.png
+Archive-Asset-SHA-512-Digest: LsILdkiw4S/6Sf7Td/Z7N9li9IjhrthilgKRe1Yo1Zr2MaSMziFG1Oyg8lw6+179IGTh+vCL8qMPYRUGvt4v5w

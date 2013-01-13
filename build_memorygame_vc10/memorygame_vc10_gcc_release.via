@@ -1,6 +1,6 @@
 --dll="c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_gcc_arm\memorygame.s3e"
 --data="c:\Users\dreambit\Documents\memorygame\data"
---app-icf1="c:/Users/dreambit/Documents/memorygame\data\app.icf"
+--app-icf1="c:/Users/dreambit/Documents/memorygame/data/app.icf"
 --config-txt1="c:/Users/dreambit/Documents/memorygame/data/app.config.txt"
 --config-txt2="d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt"
 --config-txt3="d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt"

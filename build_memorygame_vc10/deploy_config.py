@@ -4,7 +4,7 @@
 # tool during the build process.
 
 config = {}
-cmdline = ['D:/Marmalade/6.1/s3e/makefile_builder/mkb.py', 'c:/Users/dreambit/Documents/memorygame/memorygame.mkb', '--deploy-only']
+cmdline = ['D:/Marmalade/6.1/s3e/makefile_builder/mkb.py', 'c:/Users/dreambit/Documents/memorygame/memorygame.mkb', '--default-buildenv=vc10', '--msvc-project', '--deploy-only']
 mkb = 'c:/Users/dreambit/Documents/memorygame/memorygame.mkb'
 mkf = ['d:\\marmalade\\6.1\\modules\\iw2d\\iw2d.mkf', 'd:\\marmalade\\6.1\\modules\\iwgx\\iwgx.mkf', 'd:\\marmalade\\6.1\\modules\\iwgeom\\iwgeom.mkf', 'd:\\marmalade\\6.1\\modules\\iwutil\\iwutil.mkf', u'c:\\users\\dreambit\\appdata\\roaming\\marmalade\\packages\\6.1.1\\libjpeg_6b\\libjpeg.mkf', u'c:\\users\\dreambit\\appdata\\roaming\\marmalade\\packages\\6.1.1\\libpng_1.2.34\\libpng.mkf', u'c:\\users\\dreambit\\appdata\\roaming\\marmalade\\packages\\6.1.1\\zlib_1.2.4\\zlib.mkf', 'd:\\marmalade\\6.1\\modules\\iwresmanager\\iwresmanager.mkf', 'd:\\marmalade\\6.1\\modules\\iwgl\\iwgl.mkf', 'd:\\marmalade\\6.1\\modules\\iwgxfont\\iwgxfont.mkf', u'c:\\users\\dreambit\\appdata\\roaming\\marmalade\\packages\\6.1.1\\tiniconv_1.0.1\\tiniconv.mkf']
 
@@ -29,11 +29,13 @@ class DefaultConfig(DeployConfig):
     caption = 'memorygame'
     long_caption = 'memorygame'
     version = [0, 0, 1]
-    config = ['c:/Users/dreambit/Documents/memorygame\\data\\app.icf']
+    config = ['c:/Users/dreambit/Documents/memorygame/data/app.icf']
     data_dir = 'c:/Users/dreambit/Documents/memorygame/data'
     iphone_link_lib = []
+    playbook_author = 'dreambitc'
     linux_ext_lib = []
     iphone_link_libdir = []
+    playbook_authorid = 'gYAAgA8XHY6RUvCxDXH1BI2BprM'
     iphone_link_opts = []
     osx_ext_dll = []
     android_external_jars = []

@@ -1,0 +1,8 @@
+build "ARM GCC Release"
+outdir "c:/Users/dreambit/Documents/memorygame/build_memorygame_vc10"
+!task !name "Default:playbook" "Package and Install"
+!task hostname "169.254.1.1"
+!task password "820304"
+!config !name "Default"
+!config <os> "playbook"
+configlist "Default",

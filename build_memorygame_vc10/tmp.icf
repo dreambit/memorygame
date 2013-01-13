@@ -1,0 +1,6 @@
+# comments and whitespace stripped by deployment tool
+[GX]
+DataCacheSize=80000
+[s3e]
+SysAppVersion=0.0.1
+SysAppCaption="memorygame"

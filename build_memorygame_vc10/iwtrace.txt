@@ -11,187 +11,501 @@ System Info:
  Unique ID    : SIMULATOR_ID
  Device Name  : My Computer
  Memory       : 1048576KiB
-13/01/13 18:45:48.102: [0x12ac] DEVICE: Initialising FIBRE
-13/01/13 18:45:48.103: [0x12ac] DEVICE: Initialising THREAD
-13/01/13 18:45:48.103: [0x12ac] THREAD: s3eThreadCreateMain
-13/01/13 18:45:48.103: [0xfa0] DEVICE: Initialising SURFACE
-13/01/13 18:45:48.104: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-13/01/13 18:45:48.105: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-13/01/13 18:45:48.105: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-13/01/13 18:45:48.105: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
-13/01/13 18:45:48.106: [0xfa0] DEVICE: Initialising EXT
-13/01/13 18:45:48.106: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
-13/01/13 18:45:48.107: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
-13/01/13 18:45:48.107: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
-13/01/13 18:45:48.108: [0xfa0] EXT: registering extension: s3eNDSSimulator [0x1c45e0d5]
-13/01/13 18:45:48.108: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
-13/01/13 18:45:48.108: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
-13/01/13 18:45:48.109: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
-13/01/13 18:45:48.109: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
-13/01/13 18:45:48.110: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
-13/01/13 18:45:48.111: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
-13/01/13 18:45:48.111: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
-13/01/13 18:45:48.111: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
-13/01/13 18:45:48.112: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
-13/01/13 18:45:48.112: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
-13/01/13 18:45:48.113: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
-13/01/13 18:45:48.113: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
-13/01/13 18:45:48.113: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
-13/01/13 18:45:48.114: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
-13/01/13 18:45:48.114: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
-13/01/13 18:45:48.115: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
-13/01/13 18:45:48.115: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
-13/01/13 18:45:48.115: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
-13/01/13 18:45:48.116: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
-13/01/13 18:45:48.116: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
-13/01/13 18:45:48.117: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
-13/01/13 18:45:48.117: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
-13/01/13 18:45:48.118: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
-13/01/13 18:45:48.118: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
-13/01/13 18:45:48.119: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
-13/01/13 18:45:48.119: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
-13/01/13 18:45:48.120: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
-13/01/13 18:45:48.120: [0xfa0] EXT: registering extension: Location [0x7604d91e]
-13/01/13 18:45:48.120: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
-13/01/13 18:45:48.121: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
-13/01/13 18:45:48.121: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
-13/01/13 18:45:48.121: [0xfa0] DEVICE: Initialising CONFIG
-13/01/13 18:45:48.122: [0xfa0] DEVICE: Initialising TIMER
-13/01/13 18:45:48.122: [0xfa0] DEVICE: Initialising COMPRESSION
-13/01/13 18:45:48.123: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
-13/01/13 18:45:48.123: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
-13/01/13 18:45:48.124: [0xfa0] EXT: initializing extension: s3eWindow
-13/01/13 18:45:48.124: [0xfa0] EXT: initializing extension: s3eWindow 0x100bcb60
-13/01/13 18:45:48.125: [0xfa0] DEVICE: SetupPaths: NULL
-13/01/13 18:45:48.125: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via"]
-13/01/13 18:45:48.125: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via
-13/01/13 18:45:48.126: [0xfa0] LOADER: parsing via file: c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via
-13/01/13 18:45:48.127: [0xfa0] FILE: s3eFileOpen('c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via', 'r') succeeded, id=269511832 p=0x10106c98
-13/01/13 18:45:48.127: [0xfa0] LOADER: reading 941 bytes from via files
-13/01/13 18:45:48.127: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via" --dll="c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\m
-13/01/13 18:45:48.128: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via
-13/01/13 18:45:48.128: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86
-13/01/13 18:45:48.129: [0xfa0] LOADER: setting [commandline]  data=c:\Users\dreambit\Documents\memorygame\data
-13/01/13 18:45:48.129: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-13/01/13 18:45:48.129: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/dreambit/Documents/memorygame\data\app.icf
-13/01/13 18:45:48.130: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/dreambit/Documents/memorygame/data/app.config.txt
-13/01/13 18:45:48.130: [0xfa0] LOADER: setting [commandline]  config-txt2=d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt
-13/01/13 18:45:48.131: [0xfa0] LOADER: setting [commandline]  config-txt3=d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt
-13/01/13 18:45:48.131: [0xfa0] LOADER: setting [commandline]  config-txt4=d:/marmalade/6.1/modules/iwgl/docs/iwgl.config.txt
-13/01/13 18:45:48.132: [0xfa0] LOADER: setting [commandline]  config-txt5=d:/marmalade/6.1/modules/iwgx/docs/iwgx.config.txt
-13/01/13 18:45:48.132: [0xfa0] LOADER: setting [commandline]  config-txt6=d:/marmalade/6.1/modules/iwgxfont/docs/iwgxfont.config.txt
-13/01/13 18:45:48.133: [0xfa0] LOADER: setting [commandline]  config-txt7=d:/marmalade/6.1/modules/iwresmanager/docs/iwresmanager.config.txt
-13/01/13 18:45:48.133: [0xfa0] LOADER: setting [commandline]  config-txt8=d:/marmalade/6.1/modules/iwutil/docs/iwutil.config.txt
-13/01/13 18:45:48.134: [0xfa0] LOADER: setting [commandline]  config-txt9=d:/marmalade/6.1/s3e/s3e.config.txt
-13/01/13 18:45:48.134: [0xfa0] LOADER: setting [commandline]  config-txt10=d:/marmalade/6.1/s3e\s3e.config.txt
-13/01/13 18:45:48.135: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-13/01/13 18:45:48.136: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\dreambit\Documents\memorygame\data'
-13/01/13 18:45:48.137: [0xfa0] FILE: fs[03]: system[raw://] ''
-13/01/13 18:45:48.137: [0xfa0] FILE: listed 2 active filesystems
-13/01/13 18:45:48.138: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-13/01/13 18:45:48.138: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\dreambit\Documents\memorygame\data'
-13/01/13 18:45:48.138: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\dreambit\Documents\memorygame\data-ram'
-13/01/13 18:45:48.139: [0xfa0] FILE: fs[03]: system[raw://] ''
-13/01/13 18:45:48.139: [0xfa0] FILE: listed 3 active filesystems
-13/01/13 18:45:48.144: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
-13/01/13 18:45:48.144: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
-13/01/13 18:45:48.145: [0xfa0] LOADER: Using data directory c:\Users\dreambit\Documents\memorygame\data as ROM drive
-13/01/13 18:45:48.145: [0xfa0] LOADER: Using directory c:\Users\dreambit\Documents\memorygame\data-ram as RAM drive
-13/01/13 18:45:48.146: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/dreambit/Documents/memorygame/data/app.config.txt', 'r') succeeded, id=1000 p=0x10108314
-13/01/13 18:45:48.146: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1001 p=0x10108430
-13/01/13 18:45:48.146: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1002 p=0x1010854c
-13/01/13 18:45:48.146: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1003 p=0x10108668
-13/01/13 18:45:48.146: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1004 p=0x10108784
-13/01/13 18:45:48.147: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1005 p=0x101088a0
-13/01/13 18:45:48.147: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1006 p=0x101089bc
-13/01/13 18:45:48.148: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1007 p=0x10108ad8
-13/01/13 18:45:48.148: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/s3e/s3e.config.txt', 'r') succeeded, id=1008 p=0x10108bf4
-13/01/13 18:45:48.153: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/s3e\s3e.config.txt', 'r') succeeded, id=1009 p=0x10108d10
-13/01/13 18:45:48.159: [0xfa0] FILE: s3eFileOpen('raw://d:\marmalade\6.1\s3e/s3e.icf', 'rb') succeeded, id=1010 p=0x10108e2c
-13/01/13 18:45:48.159: [0xfa0] LOADER: Loading config from: d:\marmalade\6.1\s3e/s3e.icf
-13/01/13 18:45:48.162: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/dreambit/Documents/memorygame\data\app.icf
-13/01/13 18:45:48.162: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/dreambit/Documents/memorygame\data\app.icf', 'rb') succeeded, id=1011 p=0x10108f48
-13/01/13 18:45:48.162: [0xfa0] LOADER: Loading config from: raw://c:/Users/dreambit/Documents/memorygame\data\app.icf
-13/01/13 18:45:48.163: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via"]
-13/01/13 18:45:48.163: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via
-13/01/13 18:45:48.163: [0xfa0] LOADER: parsing via file: c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via
-13/01/13 18:45:48.163: [0xfa0] FILE: s3eFileOpen('c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via', 'r') succeeded, id=1012 p=0x10109064
-13/01/13 18:45:48.163: [0xfa0] LOADER: reading 941 bytes from via files
-13/01/13 18:45:48.163: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via" --dll="c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\m
-13/01/13 18:45:48.163: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_release.via
-13/01/13 18:45:48.163: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86
-13/01/13 18:45:48.163: [0xfa0] LOADER: setting [commandline]  data=c:\Users\dreambit\Documents\memorygame\data
-13/01/13 18:45:48.163: [0xfa0] LOADER: setting [commandline]  checks3edir=1
-13/01/13 18:45:48.163: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/dreambit/Documents/memorygame\data\app.icf
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/dreambit/Documents/memorygame/data/app.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt2=d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt3=d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt4=d:/marmalade/6.1/modules/iwgl/docs/iwgl.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt5=d:/marmalade/6.1/modules/iwgx/docs/iwgx.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt6=d:/marmalade/6.1/modules/iwgxfont/docs/iwgxfont.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt7=d:/marmalade/6.1/modules/iwresmanager/docs/iwresmanager.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt8=d:/marmalade/6.1/modules/iwutil/docs/iwutil.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt9=d:/marmalade/6.1/s3e/s3e.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: setting [commandline]  config-txt10=d:/marmalade/6.1/s3e\s3e.config.txt
-13/01/13 18:45:48.164: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
-13/01/13 18:45:48.184: [0xfa0] SURFACE: scaling=1
-13/01/13 18:45:48.226: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
-13/01/13 18:45:48.226: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
-13/01/13 18:45:48.226: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
-13/01/13 18:45:48.266: [0xfa0] EXT: Registering user-supplied extensions
-13/01/13 18:45:48.266: [0xfa0] FIBRE: stack switch : enabled
-13/01/13 18:45:48.267: [0xfa0] FIBRE: fast switch  : enabled
-13/01/13 18:45:48.267: [0xfa0] FIBRE: global lock  : enabled
-13/01/13 18:45:48.268: [0xfa0] FIBRE: fast lock    : disabled
-13/01/13 18:45:48.268: [0xfa0] FIBRE: thunks       : enabled
-13/01/13 18:45:48.269: [0xfa0] LOADER: Calling s3eDeviceInit()
-13/01/13 18:45:48.269: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
-13/01/13 18:45:48.269: [0xfa0] DEVICE: Initialising CALLBACKS
-13/01/13 18:45:48.270: [0xfa0] DEVICE: Initialising CRYPTO
-13/01/13 18:45:48.270: [0xfa0] DEVICE: Initialising ERROR
-13/01/13 18:45:48.270: [0xfa0] DEVICE: Initialising SOCKET
-13/01/13 18:45:48.272: [0xfa0] DEVICE: Initialising STORAGE
-13/01/13 18:45:48.272: [0xfa0] DEVICE: Initialising VIBRA
-13/01/13 18:45:48.273: [0xfa0] DEVICE: Initialising KEYBOARD
-13/01/13 18:45:48.283: [0xfa0] KEYBOARD: keyboard->SetDataFormat() succeeded in init().
-13/01/13 18:45:48.285: [0xfa0] DEVICE: Initialising POINTER
-13/01/13 18:45:48.286: [0xfa0] DEVICE: Initialising ACCELEROMETER
-13/01/13 18:45:48.286: [0xfa0] ACCELEROMETER: damping=0 scaling=0
-13/01/13 18:45:48.286: [0xfa0] DEVICE: Initialising SOUND
-13/01/13 18:45:48.353: [0xfa0] SOUND: stereo sound enabled
-13/01/13 18:45:48.354: [0xfa0] SOUND: s3eSoundStop: started=0
-13/01/13 18:45:48.354: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
-13/01/13 18:45:48.355: [0xfa0] DEVICE: Initialising AUDIO
-13/01/13 18:45:48.355: [0xfa0] AUDIO: Number of channels = 16
-13/01/13 18:45:48.356: [0xfa0] DEVICE: Initialising VIDEO
-13/01/13 18:45:48.356: [0xfa0] DEVICE: Initialising LICENSE
-13/01/13 18:45:48.356: [0xfa0] DEVICE: Initialising GL
-13/01/13 18:45:48.357: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
-13/01/13 18:45:48.360: [0xfa0] LOADER: displaying debug splash-screen
-13/01/13 18:45:48.690: [0xfa0] LOADER: s3eExecInit Done
-13/01/13 18:45:48.699: [0xfa0] LOADER: found initial S3E file: raw://c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86
-13/01/13 18:45:48.700: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86 [root=NULL 0x00000000 0x00000000]
-13/01/13 18:45:48.702: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86
-13/01/13 18:45:48.704: [0xfa0] LOADER: s3eExecDoExecuteLoop
-13/01/13 18:45:48.706: [0xfa0] DEBUG: s3eDebugErrorShow 0x00000000 type=0 'Couldn't load .s86 file: c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86'
-13/01/13 18:45:50.116: [0xfa0] LOADER: failed to load S3E: c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Release_memorygame_VC10_x86\memorygame.s86
-13/01/13 18:45:50.118: [0xfa0] DEVICE: Terminating LICENSE
-13/01/13 18:45:50.119: [0xfa0] DEVICE: Terminating VIDEO
-13/01/13 18:45:50.121: [0xfa0] DEVICE: Terminating AUDIO
-13/01/13 18:45:50.123: [0xfa0] DEVICE: Terminating SOUND
-13/01/13 18:45:50.161: [0xfa0] DEVICE: Terminating POINTER
-13/01/13 18:45:50.162: [0xfa0] DEVICE: Terminating ACCELEROMETER
-13/01/13 18:45:50.164: [0xfa0] DEVICE: Terminating KEYBOARD
-13/01/13 18:45:50.166: [0xfa0] DEVICE: Terminating GL
-13/01/13 18:45:50.168: [0xfa0] DEVICE: Terminating VIBRA
-13/01/13 18:45:50.170: [0xfa0] DEVICE: Terminating TIMER
-13/01/13 18:45:50.171: [0xfa0] DEVICE: Terminating STORAGE
-13/01/13 18:45:50.172: [0xfa0] DEVICE: Terminating SOCKET
-13/01/13 18:45:50.174: [0xfa0] DEVICE: Terminating CONFIG
-13/01/13 18:45:50.177: [0xfa0] DEVICE: Terminating ERROR
-13/01/13 18:45:50.178: [0xfa0] DEVICE: Terminating CRYPTO
-13/01/13 18:45:50.179: [0xfa0] DEVICE: Terminating EXT
-13/01/13 18:45:50.181: [0xfa0] EXT: terminating extension: s3eWindow
-13/01/13 18:45:50.182: [0xfa0] DEVICE: Terminating SURFACE
-13/01/13 18:45:50.211: [0xfa0] DEVICE: Terminating DEBUG
--- END TRACE --
+13/01/13 23:15:28.073: [0x1558] DEVICE: Initialising FIBRE
+13/01/13 23:15:28.073: [0x1558] DEVICE: Initialising THREAD
+13/01/13 23:15:28.073: [0x1558] THREAD: s3eThreadCreateMain
+13/01/13 23:15:28.074: [0xfa0] DEVICE: Initialising SURFACE
+13/01/13 23:15:28.074: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+13/01/13 23:15:28.075: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+13/01/13 23:15:28.075: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+13/01/13 23:15:28.075: [0xfa0] SURFACE: done s3eSurfaceInit: 800x600 p:1600 (800x600 p:1600) o:0
+13/01/13 23:15:28.076: [0xfa0] DEVICE: Initialising EXT
+13/01/13 23:15:28.076: [0xfa0] EXT: registering extension: s3eLibrary [0xe6dd6ce5]
+13/01/13 23:15:28.076: [0xfa0] EXT: registering extension: s3eExtLoadLibaray [0xf23d6d85]
+13/01/13 23:15:28.077: [0xfa0] EXT: registering extension: s3eCamera [0xa3e23039]
+13/01/13 23:15:28.077: [0xfa0] EXT: registering extension: s3eNDSSimulator [0x1c45e0d5]
+13/01/13 23:15:28.077: [0xfa0] EXT: registering extension: s3eWindow [0xd31aa8a8]
+13/01/13 23:15:28.078: [0xfa0] EXT: registering extension: s3eVFS [0x17f48c9f]
+13/01/13 23:15:28.078: [0xfa0] EXT: registering extension: s3eContacts [0x5e39d2af]
+13/01/13 23:15:28.078: [0xfa0] EXT: registering extension: s3eSoundRecord [0x579dbf78]
+13/01/13 23:15:28.079: [0xfa0] EXT: registering extension: s3eTouchpad [0x1dbd7ce8]
+13/01/13 23:15:28.079: [0xfa0] EXT: registering extension: s3eThread [0xcc0b4a28]
+13/01/13 23:15:28.079: [0xfa0] EXT: registering extension: s3eDebugHeap [0xc667a795]
+13/01/13 23:15:28.080: [0xfa0] EXT: registering extension: s3eExtDebugHeap [0xff96de46]
+13/01/13 23:15:28.080: [0xfa0] EXT: registering extension: s3eClipboard [0xd68f3420]
+13/01/13 23:15:28.081: [0xfa0] EXT: registering extension: s3eOSExec [0xc121bcf7]
+13/01/13 23:15:28.081: [0xfa0] EXT: registering extension: s3eExtOSExec [0x20380948]
+13/01/13 23:15:28.081: [0xfa0] EXT: registering extension: s3eEval [0x167d1038]
+13/01/13 23:15:28.082: [0xfa0] EXT: registering extension: s3eExtEval [0xf0421449]
+13/01/13 23:15:28.082: [0xfa0] EXT: registering extension: s3eHighResTimer [0x41f2dedb]
+13/01/13 23:15:28.082: [0xfa0] EXT: registering extension: s3eOSReadString [0x9fe3ea45]
+13/01/13 23:15:28.083: [0xfa0] EXT: registering extension: s3eCameraCapture [0xd36aceed]
+13/01/13 23:15:28.083: [0xfa0] EXT: registering extension: s3eTestEmulatorConfig [0x4a0d0a4f]
+13/01/13 23:15:28.083: [0xfa0] EXT: registering extension: s3eCompass [0x40d632c6]
+13/01/13 23:15:28.084: [0xfa0] EXT: registering extension: Compass [0xd3653f1b]
+13/01/13 23:15:28.084: [0xfa0] EXT: registering extension: s3eSocketOpt [0x09cdcdec]
+13/01/13 23:15:28.085: [0xfa0] EXT: registering extension: s3eExtSocketOpt [0x42fd049d]
+13/01/13 23:15:28.085: [0xfa0] EXT: registering extension: s3eImagePicker [0xd2fc1d51]
+13/01/13 23:15:28.085: [0xfa0] EXT: registering extension: s3eTest [0x168503f0]
+13/01/13 23:15:28.086: [0xfa0] EXT: registering extension: s3eSMS [0x17f480c3]
+13/01/13 23:15:28.086: [0xfa0] EXT: registering extension: s3eMetrics [0x2bc8e047]
+13/01/13 23:15:28.086: [0xfa0] EXT: registering extension: Metrics [0xbe57ec9c]
+13/01/13 23:15:28.087: [0xfa0] EXT: registering extension: s3eLocation [0x91944229]
+13/01/13 23:15:28.087: [0xfa0] EXT: registering extension: Location [0x7604d91e]
+13/01/13 23:15:28.088: [0xfa0] EXT: registering extension: Win32Surface [0x909755c1]
+13/01/13 23:15:28.088: [0xfa0] EXT: registering extension: Win32UIProcessMessage [0x48f2a5ba]
+13/01/13 23:15:28.088: [0xfa0] EXT: registering extension: Win32DataDirChange [0xbfcfc057]
+13/01/13 23:15:28.089: [0xfa0] DEVICE: Initialising CONFIG
+13/01/13 23:15:28.089: [0xfa0] DEVICE: Initialising TIMER
+13/01/13 23:15:28.089: [0xfa0] DEVICE: Initialising COMPRESSION
+13/01/13 23:15:28.090: [0xfa0] DEVICE: DeviceInit done: services=0x0a216148
+13/01/13 23:15:28.090: [0xfa0] EXT: s3eExtGetHash: 0xd31aa8a8 [0x00000000 size=0]
+13/01/13 23:15:28.091: [0xfa0] EXT: initializing extension: s3eWindow
+13/01/13 23:15:28.091: [0xfa0] EXT: initializing extension: s3eWindow 0x100bcb60
+13/01/13 23:15:28.091: [0xfa0] DEVICE: SetupPaths: NULL
+13/01/13 23:15:28.092: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via"]
+13/01/13 23:15:28.092: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via
+13/01/13 23:15:28.093: [0xfa0] LOADER: parsing via file: c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via
+13/01/13 23:15:28.093: [0xfa0] FILE: s3eFileOpen('c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via', 'r') succeeded, id=269511832 p=0x10106c98
+13/01/13 23:15:28.093: [0xfa0] LOADER: reading 939 bytes from via files
+13/01/13 23:15:28.094: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via" --dll="c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memor
+13/01/13 23:15:28.094: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via
+13/01/13 23:15:28.094: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86
+13/01/13 23:15:28.095: [0xfa0] LOADER: setting [commandline]  data=c:\Users\dreambit\Documents\memorygame\data
+13/01/13 23:15:28.095: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+13/01/13 23:15:28.096: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/dreambit/Documents/memorygame/data/app.icf
+13/01/13 23:15:28.096: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/dreambit/Documents/memorygame/data/app.config.txt
+13/01/13 23:15:28.096: [0xfa0] LOADER: setting [commandline]  config-txt2=d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt
+13/01/13 23:15:28.097: [0xfa0] LOADER: setting [commandline]  config-txt3=d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt
+13/01/13 23:15:28.097: [0xfa0] LOADER: setting [commandline]  config-txt4=d:/marmalade/6.1/modules/iwgl/docs/iwgl.config.txt
+13/01/13 23:15:28.098: [0xfa0] LOADER: setting [commandline]  config-txt5=d:/marmalade/6.1/modules/iwgx/docs/iwgx.config.txt
+13/01/13 23:15:28.098: [0xfa0] LOADER: setting [commandline]  config-txt6=d:/marmalade/6.1/modules/iwgxfont/docs/iwgxfont.config.txt
+13/01/13 23:15:28.099: [0xfa0] LOADER: setting [commandline]  config-txt7=d:/marmalade/6.1/modules/iwresmanager/docs/iwresmanager.config.txt
+13/01/13 23:15:28.099: [0xfa0] LOADER: setting [commandline]  config-txt8=d:/marmalade/6.1/modules/iwutil/docs/iwutil.config.txt
+13/01/13 23:15:28.100: [0xfa0] LOADER: setting [commandline]  config-txt9=d:/marmalade/6.1/s3e/s3e.config.txt
+13/01/13 23:15:28.100: [0xfa0] LOADER: setting [commandline]  config-txt10=d:/marmalade/6.1/s3e\s3e.config.txt
+13/01/13 23:15:28.101: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+13/01/13 23:15:28.101: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\dreambit\Documents\memorygame\data'
+13/01/13 23:15:28.101: [0xfa0] FILE: fs[03]: system[raw://] ''
+13/01/13 23:15:28.102: [0xfa0] FILE: listed 2 active filesystems
+13/01/13 23:15:28.102: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+13/01/13 23:15:28.102: [0xfa0] FILE: fs[00]: system[rom://] 'c:\Users\dreambit\Documents\memorygame\data'
+13/01/13 23:15:28.103: [0xfa0] FILE: fs[01]: system[ram://] 'c:\Users\dreambit\Documents\memorygame\data-ram'
+13/01/13 23:15:28.103: [0xfa0] FILE: fs[03]: system[raw://] ''
+13/01/13 23:15:28.103: [0xfa0] FILE: listed 3 active filesystems
+13/01/13 23:15:28.108: [0xfa0] FILE: new filesystem: drive=0 type=0 ro=1 name=rom://
+13/01/13 23:15:28.108: [0xfa0] FILE: new filesystem: drive=1 type=0 ro=0 name=ram://
+13/01/13 23:15:28.109: [0xfa0] LOADER: Using data directory c:\Users\dreambit\Documents\memorygame\data as ROM drive
+13/01/13 23:15:28.109: [0xfa0] LOADER: Using directory c:\Users\dreambit\Documents\memorygame\data-ram as RAM drive
+13/01/13 23:15:28.110: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/dreambit/Documents/memorygame/data/app.config.txt', 'r') succeeded, id=1000 p=0x10108314
+13/01/13 23:15:28.110: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt', 'r') succeeded, id=1001 p=0x10108430
+13/01/13 23:15:28.110: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt', 'r') succeeded, id=1002 p=0x1010854c
+13/01/13 23:15:28.110: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgl/docs/iwgl.config.txt', 'r') succeeded, id=1003 p=0x10108668
+13/01/13 23:15:28.110: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgx/docs/iwgx.config.txt', 'r') succeeded, id=1004 p=0x10108784
+13/01/13 23:15:28.111: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwgxfont/docs/iwgxfont.config.txt', 'r') succeeded, id=1005 p=0x101088a0
+13/01/13 23:15:28.111: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwresmanager/docs/iwresmanager.config.txt', 'r') succeeded, id=1006 p=0x101089bc
+13/01/13 23:15:28.112: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/modules/iwutil/docs/iwutil.config.txt', 'r') succeeded, id=1007 p=0x10108ad8
+13/01/13 23:15:28.112: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/s3e/s3e.config.txt', 'r') succeeded, id=1008 p=0x10108bf4
+13/01/13 23:15:28.117: [0xfa0] FILE: s3eFileOpen('raw://d:/marmalade/6.1/s3e\s3e.config.txt', 'r') succeeded, id=1009 p=0x10108d10
+13/01/13 23:15:28.123: [0xfa0] FILE: s3eFileOpen('raw://d:\marmalade\6.1\s3e/s3e.icf', 'rb') succeeded, id=1010 p=0x10108e2c
+13/01/13 23:15:28.123: [0xfa0] LOADER: Loading config from: d:\marmalade\6.1\s3e/s3e.icf
+13/01/13 23:15:28.126: [0xfa0] LOADER: Loading app-icf from command line specified location c:/Users/dreambit/Documents/memorygame/data/app.icf
+13/01/13 23:15:28.126: [0xfa0] FILE: s3eFileOpen('raw://c:/Users/dreambit/Documents/memorygame/data/app.icf', 'rb') succeeded, id=1011 p=0x10108f48
+13/01/13 23:15:28.126: [0xfa0] LOADER: Loading config from: raw://c:/Users/dreambit/Documents/memorygame/data/app.icf
+13/01/13 23:15:28.127: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via"]
+13/01/13 23:15:28.127: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via
+13/01/13 23:15:28.127: [0xfa0] LOADER: parsing via file: c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via
+13/01/13 23:15:28.127: [0xfa0] FILE: s3eFileOpen('c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via', 'r') succeeded, id=1012 p=0x10109064
+13/01/13 23:15:28.127: [0xfa0] LOADER: reading 939 bytes from via files
+13/01/13 23:15:28.127: [0xfa0] LOADER: ParseCommandLineData [-via:"c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via" --dll="c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memor
+13/01/13 23:15:28.127: [0xfa0] LOADER: setting [commandline]  via=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\memorygame_vc10_debug.via
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  dll=c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  data=c:\Users\dreambit\Documents\memorygame\data
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  checks3edir=1
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  app-icf1=c:/Users/dreambit/Documents/memorygame/data/app.icf
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt1=c:/Users/dreambit/Documents/memorygame/data/app.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt2=d:/marmalade/6.1/modules/iw2d/docs/iw2d.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt3=d:/marmalade/6.1/modules/iwgeom/docs/iwgeom.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt4=d:/marmalade/6.1/modules/iwgl/docs/iwgl.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt5=d:/marmalade/6.1/modules/iwgx/docs/iwgx.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt6=d:/marmalade/6.1/modules/iwgxfont/docs/iwgxfont.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt7=d:/marmalade/6.1/modules/iwresmanager/docs/iwresmanager.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt8=d:/marmalade/6.1/modules/iwutil/docs/iwutil.config.txt
+13/01/13 23:15:28.128: [0xfa0] LOADER: setting [commandline]  config-txt9=d:/marmalade/6.1/s3e/s3e.config.txt
+13/01/13 23:15:28.129: [0xfa0] LOADER: setting [commandline]  config-txt10=d:/marmalade/6.1/s3e\s3e.config.txt
+13/01/13 23:15:28.129: [0xfa0] LOADER: s3eExecMemoryCheck: Memory free: 1048576K
+13/01/13 23:15:28.149: [0xfa0] SURFACE: scaling=1
+13/01/13 23:15:28.192: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=0
+13/01/13 23:15:28.192: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+13/01/13 23:15:28.192: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+13/01/13 23:15:28.200: [0xfa0] EXT: Registering user-supplied extensions
+13/01/13 23:15:28.201: [0xfa0] FIBRE: stack switch : enabled
+13/01/13 23:15:28.201: [0xfa0] FIBRE: fast switch  : enabled
+13/01/13 23:15:28.202: [0xfa0] FIBRE: global lock  : enabled
+13/01/13 23:15:28.202: [0xfa0] FIBRE: fast lock    : disabled
+13/01/13 23:15:28.203: [0xfa0] FIBRE: thunks       : enabled
+13/01/13 23:15:28.203: [0xfa0] LOADER: Calling s3eDeviceInit()
+13/01/13 23:15:28.204: [0xfa0] DEVICE: DeviceInit: services=0xfffdffff [0xe5dc9eb7]
+13/01/13 23:15:28.204: [0xfa0] DEVICE: Initialising CALLBACKS
+13/01/13 23:15:28.204: [0xfa0] DEVICE: Initialising CRYPTO
+13/01/13 23:15:28.205: [0xfa0] DEVICE: Initialising ERROR
+13/01/13 23:15:28.205: [0xfa0] DEVICE: Initialising SOCKET
+13/01/13 23:15:28.207: [0xfa0] DEVICE: Initialising STORAGE
+13/01/13 23:15:28.207: [0xfa0] DEVICE: Initialising VIBRA
+13/01/13 23:15:28.208: [0xfa0] DEVICE: Initialising KEYBOARD
+13/01/13 23:15:28.219: [0xfa0] KEYBOARD: keyboard->SetDataFormat() succeeded in init().
+13/01/13 23:15:28.220: [0xfa0] DEVICE: Initialising POINTER
+13/01/13 23:15:28.221: [0xfa0] DEVICE: Initialising ACCELEROMETER
+13/01/13 23:15:28.221: [0xfa0] ACCELEROMETER: damping=0 scaling=0
+13/01/13 23:15:28.221: [0xfa0] DEVICE: Initialising SOUND
+13/01/13 23:15:28.264: [0xfa0] SOUND: stereo sound enabled
+13/01/13 23:15:28.264: [0xfa0] SOUND: s3eSoundStop: started=0
+13/01/13 23:15:28.265: [0xfa0] SOUND: SetMasterVolume: 255 -> 256
+13/01/13 23:15:28.265: [0xfa0] DEVICE: Initialising AUDIO
+13/01/13 23:15:28.266: [0xfa0] AUDIO: Number of channels = 16
+13/01/13 23:15:28.266: [0xfa0] DEVICE: Initialising VIDEO
+13/01/13 23:15:28.267: [0xfa0] DEVICE: Initialising LICENSE
+13/01/13 23:15:28.267: [0xfa0] DEVICE: Initialising GL
+13/01/13 23:15:28.268: [0xfa0] DEVICE: DeviceInit done: services=0xfffdffff
+13/01/13 23:15:28.272: [0xfa0] LOADER: displaying debug splash-screen
+13/01/13 23:15:28.602: [0xfa0] LOADER: s3eExecInit Done
+13/01/13 23:15:28.610: [0xfa0] LOADER: found initial S3E file: raw://c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86
+13/01/13 23:15:28.612: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86 [root=NULL 0x00000000 0x00000000]
+13/01/13 23:15:28.614: [0xfa0] DEVICE: s3eExecPushNext: raw://c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86
+13/01/13 23:15:28.615: [0xfa0] LOADER: s3eExecDoExecuteLoop
+13/01/13 23:15:28.617: [0xfa0] FILE: s3eFileOpen('c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.lic', 'rb') succeeded, id=1013 p=0x10109180
+13/01/13 23:15:28.619: [0xfa0] FILE: s3eFileOpen('c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86', 'rb') succeeded, id=1014 p=0x1010929c
+13/01/13 23:15:28.690: [0xfa0] LOADER: AppVersion: 4 34
+13/01/13 23:15:28.691: [0xfa0] LOADER: S3E Version    : 4.34.0
+13/01/13 23:15:28.691: [0xfa0] LOADER: Arch           : X86
+13/01/13 23:15:28.691: [0xfa0] LOADER: VFP            : 1
+13/01/13 23:15:28.692: [0xfa0] LOADER: App S3E Version: 4.34.0
+13/01/13 23:15:28.692: [0xfa0] LOADER: App arch       : X86
+13/01/13 23:15:28.693: [0xfa0] LOADER: App VFP        : 0
+13/01/13 23:15:28.703: [0xfa0] LOADER: No background colour specified
+13/01/13 23:15:28.703: [0xfa0] LOADER: No game splash screen to display
+13/01/13 23:15:28.704: [0xfa0] LOADER: new s3eExecHandle = 0x00384fc0
+13/01/13 23:15:28.714: [0xfa0] LOADER: Calling s3eDeviceInit(S3E_DEVICE_INIT_MEMORY)
+13/01/13 23:15:28.714: [0xfa0] DEVICE: DeviceInit: services=0x00020000 [0x00020000]
+13/01/13 23:15:28.715: [0xfa0] DEVICE: Initialising MEMORY
+13/01/13 23:15:28.716: [0xfa0] MEMORY: Loader heap size=30000
+13/01/13 23:15:28.716: [0xfa0] MEMORY: using default size (3145728) for heap0 (set MemSize in your game.icf to override this)
+13/01/13 23:15:28.718: [0xfa0] MEMORY: Initialised heap 0 [0x0b421c64-0x0b721c64] size=3145728
+13/01/13 23:15:28.719: [0xfa0] MEMORY: Initialised heap 7 [0x06491464-0x0649dc64] size=51200
+13/01/13 23:15:28.719: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x003e3628 0x003e3868 0x003e3340
+13/01/13 23:15:28.720: [0xfa0] DEVICE: DeviceInit done: services=0x00020000
+13/01/13 23:15:28.721: [0xfa0] LOADER: IwS3EGetEntryPoint -> 0x06a319e6
+13/01/13 23:15:28.721: [0xfa0] LOADER: Executing S3E 0x00384fc0 [c:\Users\dreambit\Documents\memorygame\build_memorygame_vc10\Debug_memorygame_VC10_x86\memorygame.s86] entry=0x06a319e6
+13/01/13 23:15:28.722: [0xfa0] EXT: s3eExtGetHash: 0xcc0b4a28 [0x06dc91b8 size=76]
+13/01/13 23:15:28.722: [0xfa0] EXT: initializing extension: s3eThread
+13/01/13 23:15:28.723: [0xfa0] EXT: initializing extension: s3eThread 0x1006ffa0
+13/01/13 23:15:28.723: [0xfa0] MEMORY: s3eMemorySetUserMemMgr 0x06a327b5 0x06a327d3 0x06a323aa
+13/01/13 23:15:28.724: [0xfa0] EXT: s3eExtGetHash: 0x2bc8e047 [0x0a435660 size=72]
+13/01/13 23:15:28.724: [0xfa0] EXT: initializing extension: s3eMetrics
+13/01/13 23:15:28.725: [0xfa0] EXT: s3eExtGetHash: 0xc667a795 [0x0a4356c0 size=8]
+13/01/13 23:15:28.725: [0xfa0] EXT: initializing extension: s3eDebugHeap
+13/01/13 23:15:28.726: [0xfa0] MEMORY: s3eExtDebugHeapAlloc: 5242880 bytes allocated for system debug heap
+13/01/13 23:15:28.731: [0xfa0] UTIL: IwCallStackInit
+13/01/13 23:15:28.732: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+13/01/13 23:15:28.733: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+13/01/13 23:15:28.733: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+13/01/13 23:15:28.734: [0xfa0] GX: IwGxSetScreenOrient: 0
+13/01/13 23:15:28.748: [0xfa0] IW_GL: EGL: eglGetDisplay returned 0BCB2DB0
+13/01/13 23:15:28.785: [0xfa0] IW_GL: eglInitialise succeeded - version 1.4
+13/01/13 23:15:28.786: [0xfa0] IW_GL: S3E_EGL_VERSION: 0104
+13/01/13 23:15:28.786: [0xfa0] IW_GL: S3E_GL_VERSION: 0200
+13/01/13 23:15:28.787: [0xfa0] IW_GL: EGL_VENDOR: Google Inc.
+13/01/13 23:15:28.787: [0xfa0] IW_GL: EGL_VERSION: 1.4 (ANGLE 1.0.0.1018)
+13/01/13 23:15:28.788: [0xfa0] IW_GL:     EGL_EXT_create_context_robustness
+13/01/13 23:15:28.788: [0xfa0] IW_GL:     EGL_ANGLE_d3d_share_handle_client_buffer
+13/01/13 23:15:28.789: [0xfa0] IW_GL:     EGL_ANGLE_query_surface_pointer
+13/01/13 23:15:28.789: [0xfa0] IW_GL:     EGL_ANGLE_surface_d3d_texture_2d_share_handle
+13/01/13 23:15:28.790: [0xfa0] IW_GL:     EGL_NV_post_sub_buffer
+13/01/13 23:15:28.791: [0xfa0] IW_GL: rejecting config 0: EGL_DEPTH_SIZE < 16
+13/01/13 23:15:28.791: [0xfa0] IW_GL: rejecting config 4: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.792: [0xfa0] IW_GL: rejecting config 5: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.792: [0xfa0] IW_GL: rejecting config 6: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.793: [0xfa0] IW_GL: rejecting config 7: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.793: [0xfa0] IW_GL: rejecting config 8: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.794: [0xfa0] IW_GL: rejecting config 9: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.794: [0xfa0] IW_GL: rejecting config 10: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.794: [0xfa0] IW_GL: rejecting config 11: EGL_CONFIG_CAVEAT == EGL_SLOW_CONFIG
+13/01/13 23:15:28.840: [0xfa0] IW_GL: GL_VENDOR: Google Inc.
+13/01/13 23:15:28.841: [0xfa0] IW_GL: GL_RENDERER: ANGLE (NVIDIA GeForce GTS 450   )
+13/01/13 23:15:28.841: [0xfa0] IW_GL: GL_VERSION: OpenGL ES 2.0 (ANGLE 1.0.0.1018)
+13/01/13 23:15:28.842: [0xfa0] IW_GL: GL properties reported by driver:
+13/01/13 23:15:28.842: [0xfa0] IW_GL:     GL_MAX_COMBINED_TEXTURE_IMAGE_UNITS: 20
+13/01/13 23:15:28.843: [0xfa0] IW_GL:     GL_SHADER_COMPILER: 1
+13/01/13 23:15:28.843: [0xfa0] IW_GL:     GL_MAX_VERTEX_ATTRIBS: 16
+13/01/13 23:15:28.844: [0xfa0] IW_GL:     GL_MAX_VERTEX_UNIFORM_VECTORS: 254
+13/01/13 23:15:28.844: [0xfa0] IW_GL:     GL_MAX_VARYING_VECTORS: 10
+13/01/13 23:15:28.845: [0xfa0] IW_GL:     GL_MAX_TEXTURE_IMAGE_UNITS: 16
+13/01/13 23:15:28.845: [0xfa0] IW_GL:     GL_MAX_VERTEX_TEXTURE_IMAGE_UNITS: 4
+13/01/13 23:15:28.846: [0xfa0] IW_GL:     GL_MAX_FRAGMENT_UNIFORM_VECTORS: 221
+13/01/13 23:15:28.846: [0xfa0] IW_GL:     GL_MAX_CUBE_MAP_TEXTURE_SIZE: 8192
+13/01/13 23:15:28.847: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_FORMAT: GL_RGB
+13/01/13 23:15:28.847: [0xfa0] IW_GL:     GL_IMPLEMENTATION_COLOR_READ_TYPE: GL_UNSIGNED_SHORT_5_6_5
+13/01/13 23:15:28.847: [0xfa0] IW_GL:     GL_MAX_RENDERBUFFER_SIZE: 8192
+13/01/13 23:15:28.848: [0xfa0] IW_GL:     GL_POINT_SIZE_MAX: -1
+13/01/13 23:15:28.850: [0xfa0] IW_GL:     GL_MAX_TEXTURE_SIZE: 8192
+13/01/13 23:15:28.851: [0xfa0] IW_GL:     GL_MAX_VIEWPORT_DIMS: 8192
+13/01/13 23:15:28.854: [0xfa0] IW_GL: Supported GL_EXTENSIONS:
+13/01/13 23:15:28.855: [0xfa0] IW_GL:     GL_OES_packed_depth_stencil
+13/01/13 23:15:28.857: [0xfa0] IW_GL:     GL_OES_element_index_uint
+13/01/13 23:15:28.859: [0xfa0] IW_GL:     GL_OES_texture_half_float_linear
+13/01/13 23:15:28.860: [0xfa0] IW_GL:     GL_NV_fence
+13/01/13 23:15:28.862: [0xfa0] IW_GL:     GL_EXT_read_format_bgra
+13/01/13 23:15:28.863: [0xfa0] IW_GL:     GL_OES_rgb8_rgba8
+13/01/13 23:15:28.865: [0xfa0] IW_GL:     GL_EXT_texture_compression_dxt1
+13/01/13 23:15:28.866: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt3
+13/01/13 23:15:28.868: [0xfa0] IW_GL:     GL_ANGLE_texture_compression_dxt5
+13/01/13 23:15:28.869: [0xfa0] IW_GL:     GL_ARB_texture_env_combine
+13/01/13 23:15:28.871: [0xfa0] IW_GL:     GL_OES_texture_npot
+13/01/13 23:15:28.873: [0xfa0] IW_GL:     GL_EXT_texture_format_BGRA8888
+13/01/13 23:15:28.874: [0xfa0] IW_GL:     GL_OES_texture_half_float
+13/01/13 23:15:28.876: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_multisample
+13/01/13 23:15:28.877: [0xfa0] IW_GL:     GL_ANGLE_framebuffer_blit
+13/01/13 23:15:28.878: [0xfa0] IW_GL:     GL_OES_standard_derivatives
+13/01/13 23:15:28.879: [0xfa0] IW_GL:     GL_OES_texture_float
+13/01/13 23:15:28.880: [0xfa0] IW_GL:     GL_OES_texture_float_linear
+13/01/13 23:15:28.881: [0xfa0] SURFACE: s3eSurfaceSetup: PixelType=RGB565, pitch=0, ptr=0x00000000, blit=4
+13/01/13 23:15:28.881: [0xfa0] SURFACE: s3eSurfaceSetup: matches native type
+13/01/13 23:15:28.882: [0xfa0] SURFACE: s3eSurfaceSetup: no user surface needed
+13/01/13 23:15:28.925: [0xfa0] GX: Parsing GL driver strings
+13/01/13 23:15:28.926: [0xfa0] GX: Unknown VENDOR
+13/01/13 23:15:28.927: [0xfa0] FILE: s3eFileOpen('resource_cache/cachedSize.bin', 'rb') succeeded, id=1015 p=0x101093b8
+13/01/13 23:15:28.927: [0xfa0] UTIL: Added class factory for CIwGxShaderTechnique (hash 0x62ab11c4)
+13/01/13 23:15:28.928: [0xfa0] UTIL: Added class factory for CIwGxCubeMap (hash 0x5474a064)
+13/01/13 23:15:28.929: [0xfa0] EXT: s3eExtGetHash: 0x167d1038 [0x0a4356d0 size=8]
+13/01/13 23:15:28.929: [0xfa0] EXT: initializing extension: s3eEval
+13/01/13 23:15:28.930: [0xfa0] UTIL: Added class factory for CIwResTemplateImage (hash 0x4d5ab6b1)
+13/01/13 23:15:28.931: [0xfa0] UTIL: Added class factory for CIwResTemplateMTL (hash 0x3a22b5bb)
+13/01/13 23:15:28.931: [0xfa0] UTIL: Added class factory for CIwResTemplateGROUP (hash 0x4d3980fb)
+13/01/13 23:15:28.932: [0xfa0] UTIL: Added class factory for CIwMaterial (hash 0x2544f997)
+13/01/13 23:15:28.932: [0xfa0] UTIL: Added class factory for CIwResGroup (hash 0xf446397f)
+13/01/13 23:15:28.933: [0xfa0] UTIL: Added class factory for CIwTexture (hash 0x3521f539)
+13/01/13 23:15:28.933: [0xfa0] UTIL: Added class factory for CIwResBuildStyle (hash 0xa59f2593)
+13/01/13 23:15:28.934: [0xfa0] RESMANAGER: Added serialise block for ResGroupMembers
+13/01/13 23:15:28.934: [0xfa0] RESMANAGER: Added serialise block for ResGroupBuildData
+13/01/13 23:15:28.934: [0xfa0] RESMANAGER: Added serialise block for ResGroupChildPaths
+13/01/13 23:15:28.935: [0xfa0] RESMANAGER: Added serialise block for ResGroupHST
+13/01/13 23:15:28.935: [0xfa0] RESMANAGER: Added serialise block for ResGroupDirectory
+13/01/13 23:15:28.936: [0xfa0] RESMANAGER: Added serialise block for ResGroupResources
+13/01/13 23:15:28.936: [0xfa0] RESMANAGER: Added serialise block for ResGroupResourcesOptimised
+13/01/13 23:15:28.937: [0xfa0] RESMANAGER: Setting build style to 'gles1'
+13/01/13 23:15:28.937: [0xfa0] UTIL: Added class factory for CIwGxFont (hash 0xa68776be)
+13/01/13 23:15:28.938: [0xfa0] UTIL: Added class factory for CIwGxFontTTFont (hash 0xc084661d)
+13/01/13 23:15:28.938: [0xfa0] UTIL: Added class factory for CIwResTemplateGXFONT (hash 0xf4d12aa4)
+13/01/13 23:15:28.939: [0xfa0] UTIL: Found 'background.jpg' using default path
+13/01/13 23:15:28.940: [0xfa0] FILE: s3eFileOpen('background.jpg', 'rb') succeeded, id=1018 p=0x1010970c
+13/01/13 23:15:28.963: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.964: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1019 p=0x10109828
+13/01/13 23:15:28.967: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.968: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1020 p=0x10109944
+13/01/13 23:15:28.974: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.975: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1021 p=0x10109a60
+13/01/13 23:15:28.980: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.981: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1022 p=0x10109b7c
+13/01/13 23:15:28.986: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.987: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1023 p=0x10109c98
+13/01/13 23:15:28.992: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.993: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1024 p=0x10109db4
+13/01/13 23:15:28.998: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:28.998: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1025 p=0x10109ed0
+13/01/13 23:15:29.003: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.004: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1026 p=0x10109fec
+13/01/13 23:15:29.008: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.009: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1027 p=0x1010a108
+13/01/13 23:15:29.013: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.014: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1028 p=0x1010a224
+13/01/13 23:15:29.018: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.019: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1029 p=0x1010a340
+13/01/13 23:15:29.023: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.024: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1030 p=0x1010a45c
+13/01/13 23:15:29.027: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.028: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1031 p=0x1010a578
+13/01/13 23:15:29.031: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.032: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1000 p=0x10108314
+13/01/13 23:15:29.035: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.036: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1001 p=0x10108430
+13/01/13 23:15:29.039: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.039: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1002 p=0x1010854c
+13/01/13 23:15:29.042: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.043: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1003 p=0x10108668
+13/01/13 23:15:29.045: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.046: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1004 p=0x10108784
+13/01/13 23:15:29.048: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.048: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1005 p=0x101088a0
+13/01/13 23:15:29.051: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.051: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1006 p=0x101089bc
+13/01/13 23:15:29.054: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.055: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1007 p=0x10108ad8
+13/01/13 23:15:29.057: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.058: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1008 p=0x10108bf4
+13/01/13 23:15:29.060: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.061: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1009 p=0x10108d10
+13/01/13 23:15:29.064: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.064: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1010 p=0x10108e2c
+13/01/13 23:15:29.067: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.067: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1011 p=0x10108f48
+13/01/13 23:15:29.070: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.070: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1012 p=0x10109064
+13/01/13 23:15:29.073: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.073: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1013 p=0x10109180
+13/01/13 23:15:29.075: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.076: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1014 p=0x1010929c
+13/01/13 23:15:29.078: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.079: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1015 p=0x101093b8
+13/01/13 23:15:29.082: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.082: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1016 p=0x101094d4
+13/01/13 23:15:29.085: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.085: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1017 p=0x101095f0
+13/01/13 23:15:29.088: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.088: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1018 p=0x1010970c
+13/01/13 23:15:29.091: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.091: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1019 p=0x10109828
+13/01/13 23:15:29.094: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.094: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1020 p=0x10109944
+13/01/13 23:15:29.097: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.098: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1021 p=0x10109a60
+13/01/13 23:15:29.100: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.101: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1022 p=0x10109b7c
+13/01/13 23:15:29.103: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.104: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1023 p=0x10109c98
+13/01/13 23:15:29.106: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.107: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1024 p=0x10109db4
+13/01/13 23:15:29.109: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.110: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1025 p=0x10109ed0
+13/01/13 23:15:29.113: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.113: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1026 p=0x10109fec
+13/01/13 23:15:29.116: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.117: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1027 p=0x1010a108
+13/01/13 23:15:29.119: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.120: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1028 p=0x1010a224
+13/01/13 23:15:29.122: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.123: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1029 p=0x1010a340
+13/01/13 23:15:29.125: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.126: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1030 p=0x1010a45c
+13/01/13 23:15:29.128: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.129: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1031 p=0x1010a578
+13/01/13 23:15:29.132: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.132: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1000 p=0x10108314
+13/01/13 23:15:29.135: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.135: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1001 p=0x10108430
+13/01/13 23:15:29.138: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.138: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1002 p=0x1010854c
+13/01/13 23:15:29.141: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.141: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1003 p=0x10108668
+13/01/13 23:15:29.144: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.145: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1004 p=0x10108784
+13/01/13 23:15:29.147: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.148: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1005 p=0x101088a0
+13/01/13 23:15:29.150: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.151: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1006 p=0x101089bc
+13/01/13 23:15:29.153: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.154: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1007 p=0x10108ad8
+13/01/13 23:15:29.156: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.157: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1008 p=0x10108bf4
+13/01/13 23:15:29.160: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.160: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1009 p=0x10108d10
+13/01/13 23:15:29.163: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.163: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1010 p=0x10108e2c
+13/01/13 23:15:29.166: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.167: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1011 p=0x10108f48
+13/01/13 23:15:29.169: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.170: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1012 p=0x10109064
+13/01/13 23:15:29.172: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.173: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1013 p=0x10109180
+13/01/13 23:15:29.175: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.176: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1014 p=0x1010929c
+13/01/13 23:15:29.178: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.179: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1015 p=0x101093b8
+13/01/13 23:15:29.182: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.182: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1016 p=0x101094d4
+13/01/13 23:15:29.185: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.185: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1017 p=0x101095f0
+13/01/13 23:15:29.188: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.188: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1018 p=0x1010970c
+13/01/13 23:15:29.191: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.192: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1019 p=0x10109828
+13/01/13 23:15:29.194: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.195: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1020 p=0x10109944
+13/01/13 23:15:29.197: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.198: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1021 p=0x10109a60
+13/01/13 23:15:29.200: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.201: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1022 p=0x10109b7c
+13/01/13 23:15:29.203: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.204: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1023 p=0x10109c98
+13/01/13 23:15:29.206: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.207: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1024 p=0x10109db4
+13/01/13 23:15:29.210: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.210: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1025 p=0x10109ed0
+13/01/13 23:15:29.213: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.213: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1026 p=0x10109fec
+13/01/13 23:15:29.216: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.216: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1027 p=0x1010a108
+13/01/13 23:15:29.219: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.219: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1028 p=0x1010a224
+13/01/13 23:15:29.222: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.223: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1029 p=0x1010a340
+13/01/13 23:15:29.225: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.226: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1030 p=0x1010a45c
+13/01/13 23:15:29.229: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.229: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1031 p=0x1010a578
+13/01/13 23:15:29.232: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.232: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1000 p=0x10108314
+13/01/13 23:15:29.235: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.235: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1001 p=0x10108430
+13/01/13 23:15:29.238: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.238: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1002 p=0x1010854c
+13/01/13 23:15:29.241: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.242: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1003 p=0x10108668
+13/01/13 23:15:29.244: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.245: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1004 p=0x10108784
+13/01/13 23:15:29.247: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.248: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1005 p=0x101088a0
+13/01/13 23:15:29.250: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.251: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1006 p=0x101089bc
+13/01/13 23:15:29.253: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.254: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1007 p=0x10108ad8
+13/01/13 23:15:29.257: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.257: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1008 p=0x10108bf4
+13/01/13 23:15:29.260: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.260: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1009 p=0x10108d10
+13/01/13 23:15:29.263: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.263: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1010 p=0x10108e2c
+13/01/13 23:15:29.266: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.266: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1011 p=0x10108f48
+13/01/13 23:15:29.269: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.270: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1012 p=0x10109064
+13/01/13 23:15:29.272: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.273: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1013 p=0x10109180
+13/01/13 23:15:29.276: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.276: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1014 p=0x1010929c
+13/01/13 23:15:29.279: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.279: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1015 p=0x101093b8
+13/01/13 23:15:29.282: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.282: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1016 p=0x101094d4
+13/01/13 23:15:29.285: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.285: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1017 p=0x101095f0
+13/01/13 23:15:29.288: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.288: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1018 p=0x1010970c
+13/01/13 23:15:29.291: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.291: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1019 p=0x10109828
+13/01/13 23:15:29.294: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.295: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1020 p=0x10109944
+13/01/13 23:15:29.297: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.298: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1021 p=0x10109a60
+13/01/13 23:15:29.300: [0xfa0] UTIL: Found 'q.png' using default path
+13/01/13 23:15:29.301: [0xfa0] FILE: s3eFileOpen('q.png', 'rb') succeeded, id=1022 p=0x10109b7c
+13/01/13 23:15:34.777: [0x8e4] DEVICE: s3eDeviceNotify 2
+13/01/13 23:15:34.779: [0x8e4] DEVICE: done s3eDeviceNotify
+13/01/13 23:15:34.781: [0x8e4] DEVICE: done RequestQuit
+13/01/13 23:15:34.789: [0xfa0] DEBUG: s3eDebugAssertShow 0x00000000 type=2 'IwAssert failure:
+Channel: GX
+File: IwGxMetricsGL.cpp
+Line: 117
+Expression: false
+Message: Failed to destroy all textures before terminating
+'
+Stop requested, debugger present

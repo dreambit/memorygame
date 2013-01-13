@@ -20,3 +20,8 @@ subprojects
 {
     iw2d
 }
+deployments
+{
+	playbook-author="dreambitc"
+	playbook-authorid="gYAAgA8XHY6RUvCxDXH1BI2BprM"
+}

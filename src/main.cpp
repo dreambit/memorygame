@@ -6,13 +6,12 @@ int main()
 {
     Iw2DInit();
     Game* game = new Game();
-	Sprite *sprite = new Sprite("q.png");
-	game->AddGameElement(sprite);
 	game->NewGame();
     while(!s3eDeviceCheckQuitRequest())
     {
-		game->Update();
-        game->Render();
+		Iw2DSurfaceClear(0xff000000);
+		game->Render();
+		Iw2DSurfaceShow();
         s3ePointerUpdate();
         s3eKeyboardUpdate();
         s3eDeviceYield();
