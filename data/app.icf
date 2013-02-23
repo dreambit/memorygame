@@ -17,3 +17,5 @@
 # S3E documentation for details.
 [GX]
 DataCacheSize=80000
+[S3E]
+MemSize=10485760
